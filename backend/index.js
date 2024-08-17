@@ -19,6 +19,7 @@ app.get ('/',(req,res)=>{
     res.send("hello");
 })
 
+app.use('/api/help',require('./routes/route'));
 
 app.listen(Port ,()=>{
     console.log(`application is started...${Port}`);
