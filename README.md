@@ -1,4 +1,18 @@
-# Help Center API Assignment
+# Hello Sir/Ma'am
+
+I wanted to let you know that I have completed the assignment you provided. I have organized the work into two main folders: "frontend" and "backend."
+
+In the "frontend" folder, I utilized packages such as Axios and Bootstrap. Additionally, I implemented Hooks like useState and useEffect. You can run the frontend application using the **(npm start)** command.
+
+In the "backend" folder, I used Express.js along with packages like Cors, Dotenv, Mongoose, and Nodemon. To start the backend server, you can also use the  **(npm start)** command.
+
+Please let me know if you need any further information or assistance.
+
+Sincerely,  
+Rajan Kumar
+
+
+<!-- # Help Center API Assignment
 
 ## Instructions
 
@@ -24,4 +38,4 @@
    - Paste the GitHub repository link in the Google form you received after pushing your code.
 
 ---
-
+ -->
