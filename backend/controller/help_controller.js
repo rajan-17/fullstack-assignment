@@ -28,8 +28,24 @@ const getall = async(req,res)=> {
 }
 
 const search = async(req,res)=> {
-    
-}
+
+    try {
+        const {key} = req.params;
+        const resp = await HelpModel.find({
+            "$or":[
+                {title:{ $regex: req.params.key}}
+            ]
+        });
+        if(!resp) {
+            return res.send({ message: "task not found" });
+        }
+
+        res.status(200).send({ message: "user found", resp })
+    } 
+    catch (error) {
+        res.status(500).send({ message: "error", error })
+    }
+    }
 
 module.exports ={
     add,

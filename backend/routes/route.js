@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get('/getall',getall);
 router.post('/add',add);
-router.get('search',search);
+router.get('/search/:key',search);
 
 
 module.exports= router
