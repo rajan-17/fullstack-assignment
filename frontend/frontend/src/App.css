@@ -35,3 +35,20 @@ button.btn.btn-light {
   border-radius: 0px 5px 5px 0px;
   border-left: none;
 }
+.footer-bg {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.blockquote {
+
+  font-size: medium !important;
+  color: #696A6A !important;
+}

@@ -17,9 +17,9 @@ const Header = () => {
                 <div className="help-content">
 
                     <h1 className='text-center center'>How can we help? </h1>
-                    <form class="d-flex my-4" role="search">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-light" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    <form className="d-flex my-4" role="search">
+                        <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-light" type="submit"><i className="fa-solid fa-arrow-right"></i></button>
                     </form>
                 </div>
 
