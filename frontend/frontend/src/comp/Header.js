@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../img/logo.png'
 
 const Header = () => {
+
     return (
         <div >
             <nav className='navbar'>
@@ -13,17 +14,7 @@ const Header = () => {
                     <button type="button" className="btn btn-outline-light btn-sm">Submit a request</button>
                 </div>
             </nav>
-            <div className="help-center">
-                <div className="help-content">
-
-                    <h1 className='text-center center'>How can we help? </h1>
-                    <form className="d-flex my-4" role="search">
-                        <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-light" type="submit"><i className="fa-solid fa-arrow-right"></i></button>
-                    </form>
-                </div>
-
-            </div>
+           
 
         </div>
     )

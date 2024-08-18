@@ -9,13 +9,13 @@ import Footer from './comp/Footer';
 
 function App() {
   return (
- <>
-  <Header/>
-  <Main/>
-  <Footer/>
- 
- 
- </>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+
+
+    </>
   );
 }
 

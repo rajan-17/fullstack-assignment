@@ -1,6 +1,7 @@
 img {
   height: 40px;
 }
+
 nav.navbar {
   justify-content: space-around !important;
   background-color: black;
@@ -13,6 +14,7 @@ nav.navbar {
   gap: 10px;
   color: white;
 }
+
 .logo p {
   margin-bottom: 0rem;
 }
@@ -24,22 +26,22 @@ nav.navbar {
   justify-content: center;
   align-items: center;
 }
+
 .help-content {
   width: 500px;
 }
+
 input.form-control {
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px;
   border-right: none;
 }
-button.btn.btn-light {
-  border-radius: 0px 5px 5px 0px;
-  border-left: none;
-}
+
 .footer-bg {
   background-color: black;
   color: white;
   padding: 15px;
 }
+
 .copyright {
   display: flex;
   justify-content: center;

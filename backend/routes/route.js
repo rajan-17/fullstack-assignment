@@ -1,13 +1,13 @@
 const express = require('express');
 const { add, search, getall } = require('../controller/help_controller');
- 
+
 
 const router = express.Router();
 
 
-router.get('/getall',getall);
-router.post('/add',add);
-router.get('/search/:key',search);
+router.get('/getall', getall);
+router.post('/add', add);
+router.get('/search/:key', search);
 
 
-module.exports= router
+module.exports = router

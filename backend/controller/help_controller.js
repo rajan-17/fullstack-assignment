@@ -40,7 +40,7 @@ const search = async(req,res)=> {
             return res.send({ message: "task not found" });
         }
 
-        res.status(200).send({ message: "user found", resp })
+        res.status(200).send(resp)
     } 
     catch (error) {
         res.status(500).send({ message: "error", error })
